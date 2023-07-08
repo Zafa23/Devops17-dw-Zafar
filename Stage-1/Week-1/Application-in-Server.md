@@ -32,7 +32,7 @@
 >Jika sudah kita akan pindah ke folder root dengan perintah 'cd' lalu enter dan selanjutnya mencari file bernama '.bashrc' 
 
 
-![export.png](../Screenshoot/golang/export.png)
+![export.png](../Screenshoot-Stage-1/golang/export.png)
 >Jika sudah masuk tambahkan teks untuk path nya dengan sintaks
 ```export PATH=$PATH:/usr/local/go/bin```
 
