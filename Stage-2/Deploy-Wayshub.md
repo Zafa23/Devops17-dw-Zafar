@@ -61,6 +61,6 @@ CREATE USER 'zafar'@'%' IDENTIFIED BY 'zafar2501';
 GRANT ALL PRIVILEGES ON *.* TO 'zafar'@'%' WITH GRANT OPTION;
 ```
 ![securesql.png](../Screenshoot/sszafar/securesql.jpg)
-
+> Selanjutnya melakukan setup keamanan di `sudo mysql_secure_installation`
 
 
