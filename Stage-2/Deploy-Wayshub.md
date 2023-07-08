@@ -38,4 +38,29 @@ Buatlah vm dengan spesifikasi
 
 
 ![hasil.png](../Screenshoot/Idclound/hasil.png)
+![hslbe.png](../Screenshoot/sszafar/hslbe.jpg)
 > lalu masukan ip public yang sudah dibuat otomatis oleh si idclounds nya dalam port 3000
+
+***
+## Konfigurasi Myql 
+![sqlins.png](../Screenshoot/sszafar/sqlins.jpg)
+> Pertama sebelum memasuki konfigurasi dan semua tentang mysql kita perlu instalasi terlebih dahulu dengan perintah `sudo apt install mysql-server`
+
+![insql.png](../Screenshoot/sszafar/insql.jpg)
+> Jika sudah terinstall buat masuk lah ke mysql root untuk pembuatan akun dan pemberian hak akses
+
+![createuser.png](../Screenshoot/sszafar/createuser.jpg)
+> Jalankan perintah ini untuk pembuatan user atau bisa di copy saja di bagian bawah ini dan berikan hak akses juga
+
+``` 
+CREATE USER 'zafar'@'localhost' IDENTIFIED WITH mysql_native_password BY 'zafar';
+atau
+CREATE USER 'zafar'@'%' IDENTIFIED BY 'zafar2501';
+```
+```
+GRANT ALL PRIVILEGES ON *.* TO 'zafar'@'%' WITH GRANT OPTION;
+```
+![securesql.png](../Screenshoot/sszafar/securesql.jpg)
+
+
+
