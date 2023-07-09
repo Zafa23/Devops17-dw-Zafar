@@ -131,3 +131,86 @@ export {
 
 ***
 ## Squelize
+**Instal npm squelize di folder backend**
+
+![cliins.jpg](../Screenshoot/sszafar/cliins.jpg)
+
+**Selanjutnya buat database sql dengan melakukan sequelize create & migrate dengan perintah**
+
+```
+sequelize db:create
+```
+
+```
+sequelize db:migrate
+```
+
+![db-create.jpg](../Screenshoot/sszafar/dbcreate.jpg)
+
+**Kemudian cek pada sql apakah sudah terbuat database dan tables nya**
+
+```
+SHOW DATABASES;
+```
+
+```
+USE db-wayshub;
+```
+
+```
+SHOW TABLES;
+```
+
+![showdatabase.png](../Screenshoot/sszafar/showdatabase.png)
+
+***
+
+## Gateway Nginx
+> Sekarang masuk ke vm gateway dan buat dns di cloundflare 2 untuk backend dan frontend nya contoh sebagai berikut
+
+`zafar.stundentdumbways.my.id` **Untuk frontend**
+`api.zafar.stundentdumbways.my.id` **Untuk backend**
+
+![dns-zafar.jpg](../Screenshoot/sszafar/dns-zafar.jpg)
+
+**lalu install nginx pada server gateway nya**
+
+![nginsins.jpg](../Screenshoot/sszafar/nginsins.jpg)
+
+>setelah itu bisa membuat folder atau langsung saja disini saya sudah langsung saja membuat konfigurasi di sites-enabled/ jika ingin membuat folder baru dan berisikan konfigurasi, setela simpan tambahkan di file nginx.conf
+
+**buat 2 file configurasi untuk backend dan frontend**
+
+![foldernginx.jpg](../Screenshoot/sszafar/foldernginx.jpg) 
+
+**lalu edit file configurai nya sepperti dibawah ini**
+
+>Untuk file frontend.conf
+
+
+```
+server { 
+    server_name zafar.stundentdumbways.my.id; 
+    
+    location / { 
+             proxy_pass http://103.174.114.223:3000;
+    }
+}
+```
+
+![rproxy.conf.jpg](../Screenshoot/sszafar/rporxy.conf.jpg)
+
+>lalu buat satu lagi buat backend.conf 
+
+
+```
+server { 
+    server_name api.zafar.stundentdumbways.my.id; 
+    
+    location / { 
+             proxy_pass http://103.174.114.223:5000;
+    }
+}
+```
+
+![rproxybe.png](../Screenshoot/sszafar/rproxybe.png)
