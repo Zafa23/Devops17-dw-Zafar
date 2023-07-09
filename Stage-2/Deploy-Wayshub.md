@@ -123,3 +123,11 @@ export {
 ![confjsinteg.png](../Screenshoot/sszafar/confjsinteg.jpg)
 ***
 ## Integrasi Backend To Sql
+**Selanjutnya edit pada file config.json di dalam `wayshub-backend/config`**
+
+
+![integsql.png](../Screenshoot/sszafar/integsql.jpg)
+![db-wayshubsql.jpg](../Screenshoot/sszafar/db-wayshubsql.jpg)
+
+***
+## Squelize
