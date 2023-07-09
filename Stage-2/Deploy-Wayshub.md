@@ -62,5 +62,60 @@ GRANT ALL PRIVILEGES ON *.* TO 'zafar'@'%' WITH GRANT OPTION;
 ```
 ![securesql.png](../Screenshoot/sszafar/securesql.jpg)
 > Selanjutnya melakukan setup keamanan di `sudo mysql_secure_installation`
+ 
+***
+
+## PM2 Ecosystem
 
 
+> silakan buat pm2 ecosystem di masing masing folder yang sudah di clone di sebelum nya `pm2 ecosystem simple`
+
+![ecofe.png](../Screenshoot/sszafar/ecofe.jpg)
+
+**Lalu edit script yang udah di buat dari sebelumnya yaitu ecosystem.config.js**
+```
+wayshub-frontend
+name  : "frontend",
+script: "npm start"
+```
+
+```
+wayshub-backend
+name  : "backend",
+script: "npm start"
+```
+
+**Jika sudah di install pm2 dan sudah konfigurasi ecosystem silakan jalankan `pm2 start`**
+![eco-fe](../Screenshoot/sszafar/eco-fe.jpg)
+
+![eco-be](../Screenshoot/sszafar/eco-be.jpg)
+
+![crosscekpm.png](../Screenshoot/sszafar/crosscekpm.jpg)
+***
+## Integrasi Frontend TO Backend
+**Sekarang kita akan mengintegrasi kan si frontend ke backend edit file api.js yang beralokasikan di frontend `wayshub-frontend/src/config`**
+![lok.png](../Screenshoot/sszafar/lok.png)
+**lali masukan script yang sudah dibuat dibawah ini**
+```
+import axios from 'axios';
+
+const API = axios.create({
+    baseURL: "http://api.zafar.studentdumbways.my.id/api/v1"
+});
+
+const setAuthToken = (token) => {
+    if(token){
+        API.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+    } else {
+        delete API.defaults.headers.common['Authorization'];
+    }
+}
+
+export {
+    API,
+    setAuthToken
+}
+```
+![confjsinteg.png](../Screenshoot/sszafar/confjsinteg.jpg)
+***
+## Integrasi Backend To Sql
