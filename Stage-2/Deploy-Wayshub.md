@@ -94,7 +94,11 @@ script: "npm start"
 ***
 ## Integrasi Frontend TO Backend
 **Sekarang kita akan mengintegrasi kan si frontend ke backend edit file api.js yang beralokasikan di frontend `wayshub-frontend/src/config`**
+
+
 ![lok.png](../Screenshoot/sszafar/lok.png)
+
+
 **lali masukan script yang sudah dibuat dibawah ini**
 ```
 import axios from 'axios';
