@@ -214,3 +214,17 @@ server {
 ```
 
 ![rproxybe.png](../Screenshoot/sszafar/rproxybe.png)
+
+***
+## Test buat akun dan masang foto profil
+> Sekarang kita tes apakah sudah berhasil, untuk tes nya menggunakan chrome dengan sintaks `zafar.stundentdumbways.my.id`
+
+![hasil.jpg](../Screenshoot/sszafar/hasil.jpg)
+>Jika berhasil akan menampilkan seperti ini jika sudah berhasi buat aku saja dengan di sign up
+
+![hasil-signup.jpg](../Screenshoot/sszafar/hasil-signup.jpg) 
+>jika sudah mengisi semua nya lalu sign-up jika sudah lakukan login lagi
+
+![hasil-sigin.jpg](../Screenshoot/sszafar/hasil-sigin.jpg)
+>dan ini tampilan awalan saat sig in nya masih kosong dan tidak ada pa apa sekarang kita akan menambahkan foto profil 
+
