@@ -228,3 +228,6 @@ server {
 ![hasil-sigin.jpg](../Screenshoot/sszafar/hasil-sigin.jpg)
 >dan ini tampilan awalan saat sig in nya masih kosong dan tidak ada pa apa sekarang kita akan menambahkan foto profil 
 
+![anya.png](../Screenshoot/sszafar/anya.jpg)
+
+
