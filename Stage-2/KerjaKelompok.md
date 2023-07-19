@@ -1,4 +1,4 @@
-# Kelompok 3
+# Kelompok 4 
 
 Anggota 
 | No. | Nama Anggota       | Peran dalam Kelompok |
@@ -8,7 +8,7 @@ Anggota
 | 3   | Muhamad Ilham  | Docker challange dan documentasion    |
 
 **Deskripsi Tugas**
-### Docker:
+### [Docker ](https://github.com/Zafa23/ZSI-Kelompok3/blob/main/Docker.md)
 
 | No. | Docker                                                          |
 |-----|-----------------------------------------------------------------|
@@ -18,7 +18,7 @@ Anggota
 |     |     - Push image ke hub Docker menggunakan akun masing-masing  |
 | 3   | Reverse Proxy & SSL Certificate untuk domain aplikasi         |
 
-### Jenkins:
+### [Jenkins & Challange](https://github.com/Zafa23/ZSI-Kelompok3/blob/main/Jenkins.md)
 
 | No. | Jenkins                                                         |
 |-----|-----------------------------------------------------------------|
