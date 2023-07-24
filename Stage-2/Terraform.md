@@ -104,6 +104,6 @@ terraform plan
 
 
 ![5.png](../_resources/214.png)
-![6.png](../_resources/215.png.png)
-![7.png](../_resources/216.png.png)
+![6.png](../_resources/215.png)
+![7.png](../_resources/216.png)
 > Jika sudah cek kembali apakah sudah ada vm yang terbuat oleh main.tf sebelumnya jika sudah kita akan lanjutkan ke ansible
