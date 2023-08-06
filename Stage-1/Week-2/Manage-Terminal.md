@@ -9,7 +9,7 @@
 6. `cut` bisa dijadikan mengambil kata pertama atau sesuai permintaan kita
 ***
 ## HTOP
-![htop.png](../Screenshoot/htop.png)
+![htop.png](../Screenshoot-Stage-1/htop.png)
 
 1. `CPU` adalah di mana kita bisa tau berapa core yang kita punya
 
