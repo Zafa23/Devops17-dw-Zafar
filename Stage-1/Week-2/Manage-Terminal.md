@@ -1,6 +1,6 @@
 ## Manage Terminal
 
-![maanipulation.png](../Screenshoot/maanipulation.png)
+![maanipulation.png](../Screenshoot-Stage-1/maanipulation.png)
 1. sebelum memulai text manipulation harus mempunyai 1 file txt untuk contoh jika blm ada silakan buat dan isi sesuka kalian
 2. `cat` untuk membaca sebuah file cat juga bisa menggabungkan dan mengedit tanpa harus masuk ke teks editor
 3. `grep` grep bisa dipakai ketika mencari sebuah kata atau menghitung jumlah kata
@@ -9,7 +9,7 @@
 6. `cut` bisa dijadikan mengambil kata pertama atau sesuai permintaan kita
 ***
 ## HTOP
-![htop.png](../Screenshoot/htop.png)
+![htop.png](../Screenshoot-Stage-1/htop.png)
 
 1. `CPU` adalah di mana kita bisa tau berapa core yang kita punya
 
