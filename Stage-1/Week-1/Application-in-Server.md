@@ -3,6 +3,11 @@
     - Jika monolith adalah sebuah arsitektur aplikasi secara kesatuan atau tunggal, maka microservices adalah sebaliknya. Microservices terbagi menjadi unit pecahan yang lebih kecil dan spesifik. Setiap unitnya terpisah dan memiliki sistem beserta database sendiri untuk beroperasi dan menggunakan mekanisme API untuk terhubung dengan unit lainnya.
 ***
 ## Deploy Wayshub 
+![npm.png](../Screenshoot-Stage-1/Wayshub/npm.png)
+```
+nppm instal init
+```
+
 ![wget.png](../Screenshoot-Stage-1/Wayshub/wget.png)
 >Sebelum memulai pastikan untuk instalasi node js, kalau sudah masukan link aplikasi yang akan di deploy dari git hub sintaksnya sebagai berikut
 ```https://github.com/dumbwaysdev/wayshub-frontend```
